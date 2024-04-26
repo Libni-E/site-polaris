@@ -10,6 +10,8 @@
 body{
     display: flex;
     flex-direction: column;
+    padding: 0px 0px 0px, 0px;
+    margin: 0px 0px 0px 0px;
     
     
 
@@ -18,7 +20,8 @@ body{
     
     background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
     display: flex;
-    gap: 40rem;
+    gap: 20rem;
+    width: 100%;
     
     
 }
@@ -62,7 +65,7 @@ body{
   }
   .slideshow-container {
     
-    max-width: 200rem;
+    max-width: 100%;
     position: relative;
     margin: auto;
   }
@@ -79,7 +82,7 @@ body{
   .text {
     position: absolute;
     color: white;
-    font-size: 24px;
+    
     width: 100%;
     text-align: center;
     top: 40%;
