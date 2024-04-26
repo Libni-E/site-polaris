@@ -20,7 +20,7 @@ body{
     
     background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
     display: flex;
-    gap: 20rem;
+    gap: 40rem;
     width: 100%;
     
     
@@ -164,4 +164,28 @@ p{
     text-align: center;
     padding: 0rem 10rem 2rem 10rem;
 }
+
+
+
+
+
+@media only screen and (max-width: 800px){
+
+    .cabecalho{
+    
+        background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+        display: flex;
+        gap: 5rem;
+        width: 100%;
+        
+        
+        
+    }
+    .cabecalho__menu__link{
+        font-size: small;
+    }
+}
+
+@
+    
 
